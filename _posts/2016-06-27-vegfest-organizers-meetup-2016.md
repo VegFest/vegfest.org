@@ -5,7 +5,7 @@ base-url: https://vegfest.org/organizers-meetup-2016-los-angeles/
 shareimage: "https://vegfest.org/assets/images/nevegfest-group.jpg"
 event:
   title: "VegFest Organizers Lunch Meet-Up"
-  description: "Join VegFest organizers from across North America for a fun and casual networking lunch. Learn from other organizers and share what you've learned. "
+  description: "Join us for a fun and casual networking lunch for active VegFest organizers from across North America. Meet other organizers, learn tips & tricks and share your best lessons from VegFest organizing. "
   moredetail: "Oh yeah and we're covering the food. We'll provide a free tasty vegan lunch delivered from a great local business. Only the best for you, my friend 👌"
   callToAction: "There are limited spaces, so sign up now"
   date: "Saturday July 10, 2016"
