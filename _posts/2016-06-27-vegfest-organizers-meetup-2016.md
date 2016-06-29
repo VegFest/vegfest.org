@@ -6,7 +6,7 @@ shareimage: "https://vegfest.org/assets/images/nevegfest-group.jpg"
 event:
   title: "VegFest Organizers Lunch Meet-Up"
   description: "Join VegFest organizers from across North America for a fun and casual networking lunch. Learn from other organizers and share what you've learned. "
-  moredetail: "Oh yeah and we're the covering food. We'll provide a free tasty vegan lunch delivered from a great local business. Only the best for you, my friend 👌"
+  moredetail: "Oh yeah and we're covering the food. We'll provide a free tasty vegan lunch delivered from a great local business. Only the best for you, my friend 👌"
   callToAction: "There are limited spaces, so sign up now"
   date: "Saturday July 10, 2016"
   time: "1pm-2pm"
