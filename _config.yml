@@ -16,4 +16,7 @@ brand:
     secondaryweight: 300
     body: "'Open Sans', sans-serif"
     bodyweight: 400
-assetsDirectory: "/assets/"
+assets_dir: "assets/"
+img_dir: "images/"
+js_dir: "javascripts/"
+default_privacy_text: "We will contact you with news & updates. If you do not wish to receive further emails, you can always opt-out of receiving further emails."
