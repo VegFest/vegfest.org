@@ -20,7 +20,7 @@ form:
     last_name: 'Last Name'
     name_of_festival: 'Name of your festival? eg New England VegFest'    
     festival_city: 'Where is your festival? eg Worcester, MA'
-    years_running_vegfest: 'How many years has your festival take place?'
+    years_running_vegfest: 'How many years has your festival taken place?'
     email: 'Your Email Address eg example@example.com'
 
 ---
