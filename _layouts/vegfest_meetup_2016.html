@@ -1,0 +1,129 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{page.event.title}} | {{page.event.date}} | {{page.event.time}}</title>
+
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="{{page.base-url}}">
+		<meta property="og:image" content="{{page.shareimage}}">
+		<meta property="og:title" content="{{page.event.title}}, {{page.event.date}}">
+		<meta property="og:site_name" content="{{page.event.title}}">
+		<meta property="og:description" content="{{page.event.description}}">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{page.title}}">
+		<meta name="twitter:description" content="{{page.description}}">
+		<meta name="twitter:image" content="{{page.shareimage}}">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="/assets/stylesheets/bootstrap-3.1.0.min.css">
+		<link rel="stylesheet" href="/assets/stylesheets/font-awesome-4.0.3.min.css">
+		<link rel="stylesheet" href="/assets/stylesheets/opensans.css">
+		<link rel="stylesheet" href="/assets/stylesheets/style.css">
+
+		<script src="/assets/{{ site.js_dir }}jquery-1.10.1.min.js"></script>
+		<script src="/assets/{{site.js_dir}}bootstrap-3.1.0.min.js"></script>
+
+		<script src="/assets/javascripts/formvalidate.js"></script>
+
+	</head>
+	<body>
+		<div class="container-fluid" id="top-heading">
+			<header class="row" id="event-header">
+				<h1>{{page.event.title}}</h1>
+				<h2>{{page.event.date}} &middot {{page.event.time}}</h2>
+				<h3>{{page.event.location}}</h3>
+			</header>
+
+			<section class="row green-veg-pattern-background" id="ask">
+				<div class="col-sm-6 col-sm-offset-3" id="ask-body">
+					<h2>Interested? Sign up now</h2>
+
+					<p>{{page.event.description}}</p>
+
+					{% if page.event.moredetail %}
+						<p>
+							{{page.event.moredetail}}
+						</p>
+					{% endif %}
+					{% if page.event.callToAction %}
+					<p><strong>{{page.event.callToAction}}</strong></p>
+					{% endif %}
+
+
+					<form id="petitionform" accept-charset="UTF-8" action="{{page.form.formURL}}" method="POST" class="form">
+						<input type="hidden" name="utf8" value="✓">
+
+						{% for entry in page.form.fields %}
+						<div class="form-group">
+							<label class="sr-only" for="{{entry[0]}}">{{entry[1]}}</label>
+							<input type="text" id="{{entry[0]}}" class="form-control" name="{{entry[0]}}" placeholder="{{entry[1]}}" required>
+						</div>
+					  {% endfor %}
+
+
+						<div class="text-center">
+						  <button type="submit" class="btn btn-lg btn-primary">{{page.form.submit_text}}</button>
+						</div>
+					  </form>
+
+					<div class="privacy">
+						<strong>
+						{% if page.form.privacy_intro %}
+							{{page.form.privacy_intro}}
+						{% else %}
+						 	{{site.default_privacy_text}}
+						{% endif %}
+					</div>
+					</strong>
+				</div>
+			</section>
+
+      {{content}}
+
+		</div>
+
+		<footer class="hidden-xs hidden-sm yellow-veg-pattern-background">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="/assets/images/VegFest-logo-black-sm.png" class="img-responsive" style="padding-top:10px;" />
+					</div>
+				</div>
+			</div>
+		</footer>
+		<br><br><br><br>
+
+    <script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', '{{site.google_analytics_token}}', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+    {% if page.showprogressbar %}
+    <script>
+		$(document).ready(function() {
+				/* get the current number of signatures and update the html of the page */
+				$.getJSON( "https://signature-data-backend.herokuapp.com", function( data ) {
+					$('#petition-count').html(data.totalCount);
+				});
+
+				/* show the progress bar when someone scrolls */
+				$(window).scroll( function () {
+					$('#signature-progress').show()
+					$('.progress .progress-bar').progressbar();
+					});
+		});
+		</script>
+    {% endif %}
+
+	</body>
+</html>
