@@ -5,7 +5,7 @@ base-url: https://vegfest.org/organizers-meetup-2016-los-angeles/
 shareimage: "https://vegfest.org/assets/images/nevegfest-group.jpg"
 event:
   title: "VegFest Organizers Lunch Meet-Up"
-  description: "Join us for a fun and casual networking lunch for active VegFest organizers from across North America. Meet other organizers, learn tips & tricks and share your best lessons from VegFest organizing. "
+  description: "Join us for a fun and casual networking lunch for active VegFest organizers from across North America. Meet other organizers, learn tips & tricks, and share your best lessons from VegFest organizing. "
   moredetail: "Oh yeah and we're covering the food. We'll provide a free tasty vegan lunch delivered from a great local business. Only the best for you, my friend 👌"
   callToAction: "There are limited spaces, so sign up now"
   date: "Saturday July 10, 2016"
@@ -30,7 +30,7 @@ form:
     <h1>Meet VegFest Organizers from Across the Country</h1>
 
     <p>
-    Join us on Saturday July 10, 2016 at 1pm during the National Animal Rights Conference for an informal get-together of VegFest organizers. This is an exclusive invite for people who are active organizing a VegFest. Meet in the hotel lobby then we'll grab lunch together & chat. This is a chance to share tips, advice and ask questions of other organizers who put together veg food festivals.
+    Join us on Saturday July 10, 2016 at 1pm during the National Animal Rights Conference for an informal get-together of VegFest organizers. This is an exclusive invite for people who are active in organizing a VegFest. Meet in the hotel lobby then we'll grab lunch together & chat. This is a chance to share tips, advice and ask questions of other organizers who put together veg food festivals.
     </p>
 
   </div>
