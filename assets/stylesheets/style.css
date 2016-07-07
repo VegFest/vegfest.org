@@ -24,7 +24,7 @@ html, body {
 
 #event-header p {
   font-weight: {{site.brand.fontface.secondaryweight}};
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #event-header h1 {
   font-weight: {{site.brand.fontface.primaryweight}};

@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Feedback on Charlotte VegFest</title>
+    <title>Feedback on {{page.eventname}}</title>
 
     <link rel="stylesheet" href="/{{site.assets_dir}}{{site.css_dir}}bootstrap-3.1.0.min.css">
     <link rel="stylesheet" href="/{{site.assets_dir}}{{site.css_dir}}font-awesome-4.0.3.min.css">
@@ -17,11 +17,10 @@
     <div class="container-fluid" id="top-heading">
       <header class="row" id="event-header">
 	      <div class="col-md-8 col-md-offset-2 text-center" style="background: linear-gradient(to bottom,#fff 0,#eaeaea 100%);border-radius: 5px;-webkit-box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);padding:5%; margin-top  :2%;">
-          <!-- <img src="{{site.assets_dir}}images/vegetables.png" alt="" class="img-responsive" /> -->
-          <h1 style="font-family: 'zona_black_regular',sans-serif;">Share Your Feedback on Charlotte VegFest</h1>
+          <h1 style="font-family: 'zona_black_regular',sans-serif;">Share Your Feedback on {{page.eventname}}</h1>
           <h2>Win a $25 Amazon Giftcard</h2>
           <p>
-            <a type="button" name="button" class="button btn btn-lg" href="http://goo.gl/forms/XqQULsDAFsETs5CJ2">TAKE THE SURVEY NOW</a>
+            <a type="button" name="button" class="button btn btn-lg" href="{{page.surveyURL}}">TAKE THE SURVEY NOW</a>
           </p>
           <p style="font-size: 1.5em">
             This survey will take less than 5 minutes. One respondant will be

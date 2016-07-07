@@ -1,5 +1,7 @@
 ---
 layout: attendee-feedback-template
 permalink: /charlottefeedback/
-#base-url: https://vegfest.org/charlottefeedback/
+eventname: 'Charlotte VegFest'
+surveyURL: http://goo.gl/forms/XqQULsDAFsETs5CJ2
+
 ---
