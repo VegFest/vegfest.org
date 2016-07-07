@@ -1,7 +1,7 @@
 ---
 ---
 
-@font-face{font-family:'zona_black_regular';src:url('/assets/fonts/zona_black_regular-webfont.eot');src:url('/assets/fonts/zona_black_regular-webfont.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/zona_black_regular-webfont.woff2') format('woff2'),url('/assets/fonts/zona_black_regular-webfont.woff') format('woff'),url('/assets/fonts/zona_black_regular-webfont.ttf') format('truetype'),url('/assets/fonts/zona_black_regular-webfont.svg#zona_black_regular') format('svg');font-weight:normal;font-style:normal}.zona{font-family:'zona_black_regular',sans-serif;letter-spacing:2px;font-weight:100}
+@font-face{font-family:'zona_black_regular';src:url('/{{site.assets_dir}}{{site.font_dir}}zona_black_regular-webfont.eot');src:url('/{{site.assets_dir}}{{site.font_dir}}zona_black_regular-webfont.eot?#iefix') format('embedded-opentype'),url('/{{site.assets_dir}}{{site.font_dir}}zona_black_regular-webfont.woff2') format('woff2'),url('/{{site.assets_dir}}{{site.font_dir}}zona_black_regular-webfont.woff') format('woff'),url('/{{site.assets_dir}}{{site.font_dir}}zona_black_regular-webfont.ttf') format('truetype'),url('/{{site.assets_dir}}{{site.font_dir}}zona_black_regular-webfont.svg#zona_black_regular') format('svg');font-weight:normal;font-style:normal}.zona{font-family:'zona_black_regular',sans-serif;letter-spacing:2px;font-weight:100}
 
 body {
   padding: 0;
@@ -129,19 +129,19 @@ footer {
 
 .yellow-veg-pattern-background {
   background-color: {{site.brand.colors.yellow}};
-  background-image: url('/assets/images/red-veg-tile-invert.png');
+  background-image: url('/{{site.assets_dir}}{{site.img_dir}}red-veg-tile-invert.png');
   background-repeat: repeat;
 }
 
 .green-veg-pattern-background {
   background-color: {{site.brand.colors.green}};
-  background-image: url('/assets/images/carrot-tile.png');
+  background-image: url('/{{site.assets_dir}}{{site.img_dir}}carrot-tile.png');
   background-repeat: repeat;
 }
 
 .red-veg-pattern-background {
   background-color: {{site.brand.colors.red}};
-  background-image: url('/assets/images/carrot-tile.png');
+  background-image: url('/{{site.assets_dir}}{{site.img_dir}}carrot-tile.png');
   background-repeat: repeat;
 }
 .privacy {

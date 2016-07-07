@@ -19,4 +19,6 @@ brand:
 assets_dir: "assets/"
 img_dir: "images/"
 js_dir: "javascripts/"
+font_dir: "fonts/"
+css_dir: "stylesheets/"
 default_privacy_text: "We will contact you with news & updates. If you do not wish to receive further emails, you can always opt-out of receiving further emails."

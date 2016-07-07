@@ -2,7 +2,7 @@
 layout: vegfest_meetup_2016
 permalink: /organizers-meetup-2016-los-angeles/
 base-url: https://vegfest.org/organizers-meetup-2016-los-angeles/
-shareimage: "https://vegfest.org/assets/images/nevegfest-group.jpg"
+shareimage: "https://vegfest.org/{{site.assets_dir}}{{site.img_dir}}nevegfest-group.jpg"
 event:
   title: "VegFest Organizers Lunch Meet-Up"
   description: "Join us for a fun and casual networking lunch for active VegFest organizers from across North America. Meet other organizers, learn tips & tricks, and share your best lessons from VegFest organizing. "
