@@ -12,6 +12,7 @@ event:
   time: "1pm-2pm"
   location: "Lobby, Sheraton Gateway Hotel, Los Angeles, California"
 form:
+  heading: 'Interested? Sign up now'
   formURL: "https://formkeep.com/f/65cb930be256"
   submit_text: "RSVP NOW"
   privacy_intro: "We will email you about the VegFest organizers meetup and related things"
