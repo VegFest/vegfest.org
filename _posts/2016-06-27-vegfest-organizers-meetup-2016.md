@@ -1,5 +1,5 @@
 ---
-layout: vegfest-meetup-2016
+layout: event-default-template
 permalink: /organizers-meetup-2016-los-angeles/
 base-url: https://vegfest.org/organizers-meetup-2016-los-angeles/
 shareimage: "https://vegfest.org/{{site.assets_dir}}{{site.img_dir}}nevegfest-group.jpg"
