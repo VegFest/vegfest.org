@@ -3,7 +3,7 @@ layout: thankyou-default-template
 permalink: /thankyou-vegfest-research-report/
 base-url: https://vegfest.org/thankyou-vegfest-research-report/
 heading: "We'll email you soon"
-subheading: "Thanks for signing up! When we publish the new research report, you'll be the first to know."
+subheading: "Thanks for signing up! You'll be the first to know when this research report is published."
 body: ""
 showShareButtons: false
 ---
