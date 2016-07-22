@@ -6,4 +6,4 @@ surveyURL: http://goo.gl/forms/8yZAqTNneT3zPTOi1
 
 ---
 
-This survey will take less than 10 minutes. One respondent will be randomly selected to receive a $25 Amazon giftcard.
+This survey will take less than 10 minutes. One respondent will be randomly selected to receive a $50 Big Burrito Gift Card (Mad Mex, Casbah, Eleven, Kaya, Soba, Umi).
