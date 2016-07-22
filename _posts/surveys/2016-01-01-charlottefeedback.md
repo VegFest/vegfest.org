@@ -3,6 +3,7 @@ layout: attendee-feedback-template
 permalink: /charlottefeedback/
 eventname: 'Charlotte VegFest'
 surveyURL: http://goo.gl/forms/XqQULsDAFsETs5CJ2
+subheading: 'Win a $25 Amazon Giftcard'
 
 ---
 
