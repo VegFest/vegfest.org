@@ -17,6 +17,7 @@
     <div class="container-fluid" id="top-heading">
       <header class="row" id="event-header">
 	      <div class="col-md-8 col-md-offset-2 text-center" style="background: linear-gradient(to bottom,#fff 0,#eaeaea 100%);border-radius: 5px;-webkit-box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);padding:5%; margin-top  :2%;">
+          {% if page.active == true %}
           <h1 style="font-family: 'zona_black_regular',sans-serif;">Share Your Feedback on {{page.eventname}}</h1>
           <h2>{{page.subheading}}</h2>
           <p>
@@ -26,6 +27,9 @@
             {{content}}
           </p>
 	      </div>
+        {% else %}
+        <h1 style="font-family: 'zona_black_regular',sans-serif;">We are no longer accepting responses</h1>
+        {% endif %}
       </header>
     </div>
 
