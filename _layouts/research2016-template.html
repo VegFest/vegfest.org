@@ -53,49 +53,30 @@
 			</header>
 
 			<section class="row red-veg-pattern-background" id="ask" style="padding-bottom: 15%;">
-				<div class="col-sm-6 col-sm-offset-3" id="ask-body">
-					<h2>{{page.form.heading}}</h2>
 
-					<p>{{page.event.description}}</p>
-
-					{% if page.event.moredetail %}
-						<p>
-							{{page.event.moredetail}}
-						</p>
-					{% endif %}
-					{% if page.event.callToAction %}
-					<p><strong>{{page.event.callToAction}}</strong></p>
-					{% endif %}
-
-
-					<form id="petitionform" accept-charset="UTF-8" action="{{page.form.formURL}}" method="POST" class="form">
-						<input type="hidden" name="utf8" value="✓">
-
-						{% for entry in page.form.fields %}
-						<div class="form-group">
-							<label class="sr-only" for="{{entry[0]}}">{{entry[1]}}</label>
-							<input type="text" id="{{entry[0]}}" class="form-control" name="{{entry[0]}}" placeholder="{{entry[1]}}" required>
-						</div>
-					  {% endfor %}
-
-
-						<div class="text-center">
-						  <button type="submit" class="btn btn-lg btn-secondary">{{page.form.submit_text}}</button>
-						</div>
-					  </form>
-
-					<div class="privacy">
-						<strong>
-						{% if page.form.privacy_intro %}
-							{{page.form.privacy_intro}}
-						{% else %}
-						 	{{site.default_privacy_text}}
-						{% endif %}
-					</div>
-					</strong>
-				</div>
 			</section>
-      {{content}}
+			<section class="row " style="padding-bottom: 15%;">
+				<section style="background-color: lightgrey; padding: 20px">
+
+					{% assign blogPosts = site.posts | where: 'category', 'research2016' %}
+					<h1>Table of Contents</h1>
+					<ul>
+						{% for post in blogPosts %}
+							<li><a href="#{{post.slug}}">{{post.title}}</a></li>
+						{% endfor %}
+					</ul>
+
+					{% for post in blogPosts %}
+						<a name="{{post.slug}}"></a><h1>{{post.title}}</h1>
+						<p>
+						{{post.content}}
+						</p>
+					{% endfor %}
+
+				</section>
+
+			</section>
+
 		</div>
 
 		<footer class="hidden yellow-veg-pattern-background">
