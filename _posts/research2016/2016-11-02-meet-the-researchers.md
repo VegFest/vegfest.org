@@ -1,7 +1,6 @@
 ---
 layout: research2016-template
 title: Meet the Researchers
-slug: meet-the-researchers
 category: research2016
 ---
 

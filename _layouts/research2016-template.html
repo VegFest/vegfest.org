@@ -62,12 +62,12 @@
 					<h1>Table of Contents</h1>
 					<ul>
 						{% for post in site.categories['research2016'] reversed %}
-							<li><a href="#{{post.slug}}">{{post.title}}</a></li>
+							<li><a href="#{{post.title | slugify}}">{{post.title}}</a></li>
 						{% endfor %}
 					</ul>
 
 					{% for post in site.categories['research2016'] reversed %}
-						<a name="{{post.slug}}"></a><h1>{{post.title}}</h1>
+						<a name="{{post.title | slugify}}"></a><h1>{{post.title}}</h1>
 
 						<section>
 						{{post.content | markdownify}}
