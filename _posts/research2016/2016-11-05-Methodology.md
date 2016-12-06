@@ -13,11 +13,11 @@ Each interview was entered into a dataset that organized the answers to the inte
 
 ![](../assets/images/research2016/Q4.4.png)
 
-In the column “Q4.4”, the values would all be coded under the theme “skills and expertise”.  In other questions, the values might potentially reveal some useful descriptive data or more importantly a resource that might be relevant to this report, namely online tools, funding avenues, or other tips that could be universally beneficial to organizers. In this case, we made a note of these intersecting themes and coded the responses for all that may apply. For example:
+In the column "Q4.4", the values would all be coded under the theme "skills and expertise".  In other questions, the values might potentially reveal some useful descriptive data or more importantly a resource that might be relevant to this report, namely online tools, funding avenues, or other tips that could be universally beneficial to organizers. In this case, we made a note of these intersecting themes and coded the responses for all that may apply. For example:
 
 *Q4.6: What is your main method of communication between all the people involved in the event’s organization?*
 
-The column “Q4.6” would then be coded under the themes “communication- internal”  as well as “resources and tools for organizers”, in case the responses offer insight into any specific resources the subject may share.  
+The column "Q4.6" would then be coded under the themes "communication- internal"  as well as "resources and tools for organizers", in case the responses offer insight into any specific resources the subject may share.  
 
 ![](../assets/images/research2016/Q4.6.png)
 
@@ -25,7 +25,7 @@ In the probing question, Q4.6.1, we further ask:
 
 *Q4.6.1: Do you think this is the most effective way to keep in touch? Why or why not?*
 
-Here, the values for the column “Q4.6.1” would be coded  for the above themes, as well as themes that highlight the subject’s subjective reflections on the use of a particular method of communication. In this example, these themes would be “challenges and pitfalls” and “feedback, reflections and lessons”.
+Here, the values for the column "Q4.6.1" would be coded  for the above themes, as well as themes that highlight the subject’s subjective reflections on the use of a particular method of communication. In this example, these themes would be "challenges and pitfalls" and "feedback, reflections and lessons".
 
 Later, when we pass through each interview word by word, a more precise code will be added to the individual response, as opposed to all responses grouped in a single theme, to best reflect the significance of the data.  For example, a response received from Darcy was:
 
@@ -44,11 +44,11 @@ We can see that the response brings up several different themes and perspectives
   * The VegFest volunteer’s level of participation
   * The VegFest volunteer’s sense of community.
 
-Thus, we will keep the codes “communication- internal”, “challenges and pitfalls” and “feedback, reflections and lessons” for this part of the interview data, and add “contributed to the success of the VegFest”, “community and outreach”, “Labour- volunteer” and “Networks- non VegFest activities”.  By doing this, we can isolate the specific parts of the text for the next level of analysis, examining matrix coding using thematic clusters.
+Thus, we will keep the codes "communication- internal", "challenges and pitfalls" and "feedback, reflections and lessons" for this part of the interview data, and add "contributed to the success of the VegFest", "community and outreach", "Labour- volunteer" and "Networks- non VegFest activities".  By doing this, we can isolate the specific parts of the text for the next level of analysis, examining matrix coding using thematic clusters.
 
 *Matrix coding and themed clusters:*
 
-Matrix coding is used to understand how certain themes are used in different context, comparing attitudes and perceptions to a theme, or how certain themes are discussed according to a respondent’s demographic profile. For this report, we primarily focus on the interview subject’s attitudes towards a particular theme in VegFest organizing.  Because we have previously coded each interview, we are able to explore questions such as “Has advertisement contributed to the success or failure of a VegFest?” by comparing the codes for “Outreach and advertisement” with “contributed to the success of the VegFest” and “contributed to the failure of the VegFest”.  By doing this, I can see easily which data has been identified as discussing the above themes.  For a more holistic view of a certain topic, I can explore the matrix of clustered themes about that topic along with the interview subject’s general perspective.
+Matrix coding is used to understand how certain themes are used in different context, comparing attitudes and perceptions to a theme, or how certain themes are discussed according to a respondent’s demographic profile. For this report, we primarily focus on the interview subject’s attitudes towards a particular theme in VegFest organizing.  Because we have previously coded each interview, we are able to explore questions such as "Has advertisement contributed to the success or failure of a VegFest?" by comparing the codes for "Outreach and advertisement" with "contributed to the success of the VegFest" and "contributed to the failure of the VegFest".  By doing this, I can see easily which data has been identified as discussing the above themes.  For a more holistic view of a certain topic, I can explore the matrix of clustered themes about that topic along with the interview subject’s general perspective.
 
 ![](../assets/images/research2016/methodology-venn.png)
 
@@ -73,11 +73,11 @@ In addition, I created a cluster that addresses all the codes that pertain to at
 1. Challenges and Pitfalls
 1. Feedback, Reflections and Lessons
 
-By comparing the above cluster, “attitudes and perspectives” to “Money and Finances”, for example, we can see what the tone of the discussion about finances are, what was successful or not, and if the organizer has any insight to share about past lessons, or future ideas.
+By comparing the above cluster, "attitudes and perspectives" to "Money and Finances", for example, we can see what the tone of the discussion about finances are, what was successful or not, and if the organizer has any insight to share about past lessons, or future ideas.
 
 *Resources:*
 
-Because a portion of this report is meant to benefit both VegFund and VegFest organizers alike, the researchers made special efforts to highlight a list of nominal resources that may be of interest to organizers, as well as general advice, tips and tricks that can be of immediate benefit to a VegFest’s organizing team.  This is meant to expand upon the existing resources that are available, such as the “How To Plan a VegFest” guide published by the Twin Cities VegFest team.  These resources are compiled under the following categories, which will be expanded upon in the What do we do next?  section of this report. The researchers hope to use these particular findings to update and ameliorate the existing resource guides for organizers, and to address some of the stated needs of organizers in terms of networking, and support.  We have defined these resources as follows:
+Because a portion of this report is meant to benefit both VegFund and VegFest organizers alike, the researchers made special efforts to highlight a list of nominal resources that may be of interest to organizers, as well as general advice, tips and tricks that can be of immediate benefit to a VegFest’s organizing team.  This is meant to expand upon the existing resources that are available, such as the "How To Plan a VegFest" guide published by the Twin Cities VegFest team.  These resources are compiled under the following categories, which will be expanded upon in the What do we do next?  section of this report. The researchers hope to use these particular findings to update and ameliorate the existing resource guides for organizers, and to address some of the stated needs of organizers in terms of networking, and support.  We have defined these resources as follows:
 
 1. Online tools and resources for organizing, data gathering, communication and outreach.
 1. Avenues and methods for funding your VegFest
