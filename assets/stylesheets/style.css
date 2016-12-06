@@ -71,7 +71,7 @@ a.btn {
   color: white;
 }
 
-li {
+ul {
   list-style-type: none;
 }
 .address {
@@ -193,4 +193,11 @@ footer {
     -ms-transition: width 4s ease-in-out;
     -o-transition: width 4s ease-in-out;
     transition: width 4s ease-in-out;
+}
+main {
+  margin: 10%;
+}
+hr {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
