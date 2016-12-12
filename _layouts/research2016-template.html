@@ -26,6 +26,7 @@
 		<link rel="stylesheet" href="/{{site.assets_dir}}{{site.css_dir}}style.css">
 		<link rel="stylesheet" href="/{{site.assets_dir}}{{site.css_dir}}vegfest-research-2016-style.css">
 
+
 		<script src="/assets/{{ site.js_dir }}jquery-1.10.1.min.js"></script>
 		<script src="/assets/{{site.js_dir}}bootstrap-3.1.0.min.js"></script>
 
@@ -87,13 +88,17 @@
 
 						</div>
 
+						<section class="row">
+							<div class="col-md-offset-3 col-md-1">
+								<h1 class="section-number">{{forloop.index}}</h1>
+							</div>
+							<div class="col-md-8">
 
-						<h1>{{post.title}}</h1>
-
-						<section>
-						{{post.content | markdownify}}
-						</section>
-						<hr>
+									<h1 class="section-title">{{post.title}}</h1>
+								{{post.content | markdownify}}
+								<hr>
+							</div>
+					</section>
 
 					{% endfor %}
 
