@@ -79,32 +79,26 @@
 					<p>The goal was to determine what key factors in organizing lead to successful veg food festivals. The outcome of this project is threefold: a publicly accessible report with analysis intended for activists and organizers in the vegetarian/vegan and animal movement, a separate private report with recommendations for funders of veg food festivals, and an opportunity for movement building by creating lateral connections among VegFest organizers across the continent.</p>
 				</section>
 			</section>
-			<section class="row " style="padding-bottom: 15%;">
-				<main>
+			<main>
 
-					{% for post in site.categories['research2016'] reversed %}
-						<a name="{{post.title | slugify}}"></a>
-						<div class="" style='padding-top:100px;'>
-
+				{% for post in site.categories['research2016'] reversed %}
+					<a name="{{post.title | slugify}}"></a>
+					<section class="row chapter">
+						<div class="col-md-offset-2 col-md-1">
+							<h1 class="section-number">{{forloop.index}}</h1>
 						</div>
+						<div class="col-md-9">
 
-						<section class="row">
-							<div class="col-md-offset-3 col-md-1">
-								<h1 class="section-number">{{forloop.index}}</h1>
-							</div>
-							<div class="col-md-8">
+								<h1 class="section-title">{{post.title}}</h1>
+							{{post.content | markdownify}}
+							<hr>
+						</div>
+				</section>
 
-									<h1 class="section-title">{{post.title}}</h1>
-								{{post.content | markdownify}}
-								<hr>
-							</div>
-					</section>
+				{% endfor %}
 
-					{% endfor %}
+			</main>
 
-				</main>
-
-			</section>
 
 		</div>
 
