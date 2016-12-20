@@ -27,17 +27,18 @@
 #research-header h1 {
   font-weight: {{site.brand.fontface.primaryweight}};
   font-size: 3em;
-  line-height: 30%;
+  /*line-height: 70%;*/
+  color: #fff;
 }
 
 #research-header h1, #research-header h2, #research-header h3 {
   font-family: 'zona_black_regular',sans-serif;
+  padding-bottom: 0em;
 }
 
 #research-header h3 {
   font-weight: {{site.brand.fontface.primaryweight}};
   font-size: 5em;
-  line-height: 30%;
   margin-bottom: .5em;
 }
 
@@ -54,6 +55,9 @@
   }
   #research-header h1 {
     font-size: 1.65em;
+  }
+  #research-header h1 {
+    line-height: .75;
   }
 
   #research-header h3 {
@@ -77,15 +81,22 @@
   }
   #research-header h1 {
     font-size: 4.25em;
-    line-height: 0.4em;
+    /*line-height: 0.4em;*/
+    font-family: 'abolition';
+    font-weight: normal;
   }
   #research-header h2 {
     font-size: 3em;
+    line-height: 0.4em;
+    background: none;
   }
 
   #research-header h3 {
     font-size: 7.25em;
     line-height: 0.6em;
+    font-family: 'zona_black_regular',sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
   }
 }
 
@@ -127,7 +138,7 @@ h2 {
   margin-top: 1em;
 }
 h3 {
-  color: #696969;
+  color: #fff;
 }
 
 .chapter {
