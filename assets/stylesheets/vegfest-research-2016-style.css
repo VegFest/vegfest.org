@@ -191,7 +191,8 @@ h1.section-title {
 
 #abstract h1 {
   font-size: 1.8em;
-  font-family: OpenSans;
+  font-family: 'abolition';
+  font-weight: normal;
   color: #3FBFBC;
 }
 
